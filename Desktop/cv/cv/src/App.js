@@ -1,5 +1,8 @@
 import './App.css';
 import profileImg from './profilowe.jpg';
+import inf03Img from './inf03.png';
+import inf04Img from './inf04.png';
+import codingImg from './kodowanie.png';
 
 function App() {
   return (
@@ -58,27 +61,27 @@ function App() {
       </section>
 
       <section className="cv-section">
-        <h2>Wybrane realizacje i projekty</h2>
+        <h2>Certyfikaty i realizacje</h2>
         <div className="projects-grid">
           <div className="project-card">
-            <img src="https://picsum.photos/400/220?random=1" alt="Projekt 1" />
+            <img src={inf03Img} alt="Kwalifikacja INF.03" />
             <div className="project-body">
-              <h4>Aplikacja Webowa React</h4>
-              <p>Dynamiczny interfejs SPA zoptymalizowany pod urządzenia mobilne.</p>
+              <h4>Kwalifikacja INF.03</h4>
+              <p>Tworzenie i administrowanie stronami i bazami danych.</p>
             </div>
           </div>
           <div className="project-card">
-            <img src="https://picsum.photos/400/220?random=2" alt="Projekt 2" />
+            <img src={inf04Img} alt="Kwalifikacja INF.04" />
             <div className="project-body">
-              <h4>Baza Danych & Backend</h4>
-              <p>Implementacja logiki aplikacji z wykorzystaniem relacyjnej bazy danych.</p>
+              <h4>Kwalifikacja INF.04</h4>
+              <p>Projektowanie, programowanie i testowanie aplikacji.</p>
             </div>
           </div>
           <div className="project-card">
-            <img src="https://picsum.photos/400/220?random=3" alt="Projekt 3" />
+            <img src={codingImg} alt="Kodowanie" />
             <div className="project-body">
-              <h4>Projekt Interfejsu UI</h4>
-              <p>Dedykowany szablon graficzny przygotowany zgodnie ze standardami UX.</p>
+              <h4>Realizacja projektów</h4>
+              <p>Praktyczne kodowanie i wdrażanie rozwiązań webowych.</p>
             </div>
           </div>
         </div>
