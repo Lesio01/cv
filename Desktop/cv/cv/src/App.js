@@ -41,6 +41,22 @@ function App() {
       </section>
 
       <section className="cv-section">
+        <h2>Doświadczenie i praktyki zawodowe</h2>
+        <div className="experience-card">
+          <div className="experience-header">
+            <h3>Praktykant – Technik Programista</h3>
+            <span className="experience-date">Praktyki zawodowe</span>
+          </div>
+          <ul className="experience-list">
+            <li>Tworzenie responsywnych komponentów stron internetowych w HTML, CSS i JavaScript</li>
+            <li>Współpraca przy testowaniu i optymalizacji aplikacji internetowych</li>
+            <li>Konfiguracja środowisk deweloperskich oraz praca z systemem kontroli wersji Git</li>
+            <li>Podstawowe operacje na relacyjnych bazach danych SQL</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="cv-section">
         <h2>Kwalifikacje zawodowe</h2>
         <div className="qualifications-grid">
           <div className="qualification-card">
@@ -73,6 +89,16 @@ function App() {
         <div className="languages-box">
           <p><strong>Język angielski:</strong> Poziom B1/B2 (swobodne czytanie dokumentacji technicznej, komunikacja branżowa)</p>
           <p><strong>Język polski:</strong> Ojczysty</p>
+        </div>
+      </section>
+
+      <section className="cv-section">
+        <h2>Zainteresowania</h2>
+        <div className="interests-grid">
+          <span className="interest-pill">Nowe technologie webowe</span>
+          <span className="interest-pill">Architektura komputerów i hardware</span>
+          <span className="interest-pill">Cyberbezpieczeństwo</span>
+          <span className="interest-pill">E-sport i gry strategiczne</span>
         </div>
       </section>
 

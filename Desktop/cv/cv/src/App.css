@@ -99,6 +99,49 @@ body {
   font-size: 1rem;
 }
 
+.experience-card {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #6f42c1;
+  padding: 18px;
+  border-radius: 6px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.experience-header h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #0f172a;
+}
+
+.experience-date {
+  font-size: 0.85rem;
+  background-color: #f1f5f9;
+  color: #64748b;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.experience-list {
+  margin: 0;
+  padding-left: 20px;
+  color: #4a5568;
+}
+
+.experience-list li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
 .qualifications-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -153,6 +196,21 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.interests-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.interest-pill {
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
 }
 
 .projects-grid {
