@@ -1,11 +1,12 @@
 import './App.css';
+import profileImg from './profilowe.jpg';
 
 function App() {
   return (
     <div className="container">
       <div className="profile-section">
         <img 
-          src="https://picsum.photos/200/200?random=10" 
+          src={profileImg} 
           alt="Moje zdjęcie" 
           className="profile-img" 
         />

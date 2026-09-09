@@ -7,8 +7,8 @@ body {
 
 .container {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 40px 20px;
+  margin: 0;
+  padding: 20px;
 }
 
 .profile-section {
@@ -37,7 +37,7 @@ body {
 }
 
 .gallery-section {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .gallery-section h3 {
