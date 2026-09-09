@@ -15,10 +15,10 @@ function App() {
         />
         <div className="header-text">
           <h1>Michał Leszek</h1>
-          <p className="subtitle">Junior Frontend Developer / Technik Informatyk</p>
+          <p className="subtitle">Technik Programista / Junior Frontend Developer</p>
           <div className="contact-inline">
-            <span>Email: michalleszek2008@wp.pl</span>
-            <span>GitHub: github.com/Lesio01</span>
+            <a href="mailto:michalleszek2008@wp.pl">michalleszek2008@wp.pl</a>
+            <a href="https://github.com/Lesio01" target="_blank" rel="noreferrer">github.com/Lesio01</a>
           </div>
         </div>
       </header>
@@ -30,6 +30,14 @@ function App() {
           Stale rozwijam swoje umiejętności w ekosystemie JavaScript i React, dbając o czysty kod 
           i estetyczny wygląd aplikacji.
         </p>
+      </section>
+
+      <section className="cv-section">
+        <h2>Edukacja</h2>
+        <div className="education-card">
+          <h3>Zespół Szkół Ogólnokształcących i Technicznych w Czeladzi</h3>
+          <p className="education-major">Kierunek: <strong>Technik programista</strong></p>
+        </div>
       </section>
 
       <section className="cv-section">
@@ -49,7 +57,7 @@ function App() {
       </section>
 
       <section className="cv-section">
-        <h2>Umiejętności</h2>
+        <h2>Umiejętności techniczne</h2>
         <div className="skills-tags">
           <span className="tag">HTML5</span>
           <span className="tag">CSS3 / Flexbox / Grid</span>
@@ -57,6 +65,14 @@ function App() {
           <span className="tag">React</span>
           <span className="tag">Git & GitHub</span>
           <span className="tag">SQL</span>
+        </div>
+      </section>
+
+      <section className="cv-section">
+        <h2>Języki obce</h2>
+        <div className="languages-box">
+          <p><strong>Język angielski:</strong> Poziom B1/B2 (swobodne czytanie dokumentacji technicznej, komunikacja branżowa)</p>
+          <p><strong>Język polski:</strong> Ojczysty</p>
         </div>
       </section>
 
