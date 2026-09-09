@@ -1,8 +1,8 @@
 import './App.css';
 import profileImg from './profilowe.jpg';
 import inf03Img from './inf03.png';
-import inf04Img from './inf04.png';
-import codingImg from './kodowanie.png';
+import inf04Img from './inf04.webp';
+import codingImg from './kodowanie.jpg';
 
 function App() {
   return (
